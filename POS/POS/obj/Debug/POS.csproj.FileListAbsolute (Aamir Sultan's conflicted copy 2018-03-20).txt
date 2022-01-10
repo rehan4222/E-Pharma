@@ -1,0 +1,555 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\POS\POS\bin\Debug\POS.exe.config
+C:\Users\hanna\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_AddUsers.resources
+C:\Users\hanna\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_ProductCategories.resources
+C:\Users\hanna\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Products.resources
+C:\Users\hanna\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Sales.resources
+C:\Users\hanna\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Suppliers.resources
+C:\Users\hanna\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.Login.resources
+C:\Users\hanna\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.Properties.Resources.resources
+C:\Users\hanna\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.csproj.GenerateResource.Cache
+C:\Users\hanna\Dropbox\Harfsol Products\POS\POS\bin\Debug\POS.exe.config
+C:\Users\hanna\Dropbox\Harfsol Products\POS\POS\bin\Debug\POS.exe
+C:\Users\hanna\Dropbox\Harfsol Products\POS\POS\bin\Debug\POS.pdb
+C:\Users\hanna\Dropbox\Harfsol Products\POS\POS\bin\Debug\EntityFramework.dll
+C:\Users\hanna\Dropbox\Harfsol Products\POS\POS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hanna\Dropbox\Harfsol Products\POS\POS\bin\Debug\EntityFramework.xml
+C:\Users\hanna\Dropbox\Harfsol Products\POS\POS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hanna\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_MainAdmin.resources
+C:\Users\hanna\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.exe
+C:\Users\hanna\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.pdb
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\POS.exe.config
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\POS.exe
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\POS.pdb
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\EntityFramework.dll
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\EntityFramework.xml
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.csprojResolveAssemblyReference.cache
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.BankAddition.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.FixAssets.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_AddUsers.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Customers.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Expenses.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_MainAdmin.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_PayementEdit.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Payments.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_ProductCategories.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_ProductEdit.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Products.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_PurchaseReturn.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Purchases.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_rec.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Recievings.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_SaleReturn.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Sales.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Suppliers.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.Login.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.mainform.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.Properties.Resources.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.Recipt_Purchases.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.Recipt_Sales.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.csproj.GenerateResource.Cache
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.exe
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.pdb
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\POS.exe.config
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\POS.exe.manifest
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\POS.application
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\POS.exe
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\POS.pdb
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\EntityFramework.dll
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\FlashControlV71.dll
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\stdole.dll
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\EntityFramework.xml
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.BankAddition.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.Demo_Screen.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.FixAssets.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_AddUsers.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Customers.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_EditExpense.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Expenses.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_MainAdmin.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_PayementEdit.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Payments.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_ProductCategories.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_ProductEdit.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Products.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_PurchaseReturn.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Purchases.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_rec.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Recievings.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_SaleReport.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_SaleReturn.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Sales.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_SearchExpensecs.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Stock.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Suppliers.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.Login.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.mainform.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.Properties.Resources.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.Recipt_Purchases.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.Recipt_Sales.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.csproj.GenerateResource.Cache
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.TrustInfo.xml
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.exe.manifest
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.application
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.exe
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.pdb
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.BankAddition.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.Demo_Screen.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.FixAssets.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_AddUsers.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Customers.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_EditExpense.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Expenses.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_MainAdmin.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_PayementEdit.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Payments.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_ProductCategories.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_ProductEdit.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Products.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_PurchaseReturn.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Purchases.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_rec.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Recievings.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_SaleReport.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_SaleReturn.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Sales.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_SearchExpensecs.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Stock.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Suppliers.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.Login.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.mainform.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.Properties.Resources.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.Recipt_Purchases.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.Recipt_Sales.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.csproj.GenerateResource.Cache
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.TrustInfo.xml
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.exe
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.pdb
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\POS.exe.config
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\POS.exe.manifest
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\POS.application
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\POS.exe
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\POS.pdb
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\FlashControlV71.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\stdole.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.exe.manifest
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.application
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_PurchaseReport.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_CashReport.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_BankReport.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\POS.exe.manifest
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\POS.application
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\FlashControlV71.dll
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\bin\Debug\stdole.dll
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.Demo_Screen.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_BankReport.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_CashReport.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_EditExpense.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_PurchaseReport.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_SaleReport.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_SearchExpensecs.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_Stock.resources
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.TrustInfo.xml
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.exe.manifest
+C:\Users\aamir\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.application
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_BankReport.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_CashReport.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_PurchaseReport.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.csprojResolveAssemblyReference.cache
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_PaymentLedger.resources
+C:\Users\CEO Harfsol\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_PaymentsReport.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_PaymentLedger.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\POS\POS\obj\Debug\POS.frm_PaymentsReport.resources
+C:\Users\Aamir\Desktop\POS\POS\bin\Debug\POS.exe.config
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.exe
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.pdb
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.csprojResolveAssemblyReference.cache
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.BankAddition.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.Demo_Screen.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.FixAssets.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_AddUsers.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_BankReport.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_CashReport.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_Customers.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_EditExpense.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_Expenses.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_MainAdmin.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_PayementEdit.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_PaymentLedger.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_Payments.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_PaymentsReport.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_ProductCategories.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_ProductEdit.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_Products.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_PurchaseReport.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_PurchaseReturn.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_Purchases.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_rec.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_Recievings.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_SaleReport.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_SaleReturn.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_Sales.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_SearchExpensecs.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_Stock.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.frm_Suppliers.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.Login.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.mainform.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.Properties.Resources.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.Recipt_Purchases.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.Recipt_Sales.resources
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.csproj.GenerateResource.Cache
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.TrustInfo.xml
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.Simple_sales_reciept.resources
+C:\Users\Aamir\Desktop\POS\POS\bin\Debug\POS.exe.manifest
+C:\Users\Aamir\Desktop\POS\POS\bin\Debug\POS.application
+C:\Users\Aamir\Desktop\POS\POS\bin\Debug\POS.exe
+C:\Users\Aamir\Desktop\POS\POS\bin\Debug\POS.pdb
+C:\Users\Aamir\Desktop\POS\POS\bin\Debug\EntityFramework.dll
+C:\Users\Aamir\Desktop\POS\POS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Aamir\Desktop\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Aamir\Desktop\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Aamir\Desktop\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Aamir\Desktop\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Aamir\Desktop\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Aamir\Desktop\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Aamir\Desktop\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Aamir\Desktop\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Aamir\Desktop\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Aamir\Desktop\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Aamir\Desktop\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Aamir\Desktop\POS\POS\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Aamir\Desktop\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Aamir\Desktop\POS\POS\bin\Debug\stdole.dll
+C:\Users\Aamir\Desktop\POS\POS\bin\Debug\EntityFramework.xml
+C:\Users\Aamir\Desktop\POS\POS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.exe.manifest
+C:\Users\Aamir\Desktop\POS\POS\obj\Debug\POS.application
+E:\POS\POS\bin\Debug\POS.exe.config
+E:\POS\POS\obj\Debug\POS.exe
+E:\POS\POS\obj\Debug\POS.pdb
+E:\POS\POS\obj\Debug\POS.csprojResolveAssemblyReference.cache
+E:\POS\POS\obj\Debug\POS.BankAddition.resources
+E:\POS\POS\obj\Debug\POS.Demo_Screen.resources
+E:\POS\POS\obj\Debug\POS.FixAssets.resources
+E:\POS\POS\obj\Debug\POS.frm_AddUsers.resources
+E:\POS\POS\obj\Debug\POS.frm_BankReport.resources
+E:\POS\POS\obj\Debug\POS.frm_CashReport.resources
+E:\POS\POS\obj\Debug\POS.frm_Customers.resources
+E:\POS\POS\obj\Debug\POS.frm_EditExpense.resources
+E:\POS\POS\obj\Debug\POS.frm_Expenses.resources
+E:\POS\POS\obj\Debug\POS.frm_MainAdmin.resources
+E:\POS\POS\obj\Debug\POS.frm_PayementEdit.resources
+E:\POS\POS\obj\Debug\POS.frm_PaymentLedger.resources
+E:\POS\POS\obj\Debug\POS.frm_Payments.resources
+E:\POS\POS\obj\Debug\POS.frm_PaymentsReport.resources
+E:\POS\POS\obj\Debug\POS.frm_ProductCategories.resources
+E:\POS\POS\obj\Debug\POS.frm_ProductEdit.resources
+E:\POS\POS\obj\Debug\POS.frm_Products.resources
+E:\POS\POS\obj\Debug\POS.frm_PurchaseReport.resources
+E:\POS\POS\obj\Debug\POS.frm_PurchaseReturn.resources
+E:\POS\POS\obj\Debug\POS.frm_Purchases.resources
+E:\POS\POS\obj\Debug\POS.frm_rec.resources
+E:\POS\POS\obj\Debug\POS.frm_Recievings.resources
+E:\POS\POS\obj\Debug\POS.frm_SaleReport.resources
+E:\POS\POS\obj\Debug\POS.frm_SaleReturn.resources
+E:\POS\POS\obj\Debug\POS.frm_Sales.resources
+E:\POS\POS\obj\Debug\POS.frm_SearchExpensecs.resources
+E:\POS\POS\obj\Debug\POS.frm_Stock.resources
+E:\POS\POS\obj\Debug\POS.frm_Suppliers.resources
+E:\POS\POS\obj\Debug\POS.Login.resources
+E:\POS\POS\obj\Debug\POS.mainform.resources
+E:\POS\POS\obj\Debug\POS.Properties.Resources.resources
+E:\POS\POS\obj\Debug\POS.Recipt_Purchases.resources
+E:\POS\POS\obj\Debug\POS.Recipt_Sales.resources
+E:\POS\POS\obj\Debug\POS.Simple_sales_reciept.resources
+E:\POS\POS\obj\Debug\POS.csproj.GenerateResource.Cache
+E:\POS\POS\bin\Debug\POS.exe.manifest
+E:\POS\POS\bin\Debug\POS.application
+E:\POS\POS\bin\Debug\POS.exe
+E:\POS\POS\bin\Debug\POS.pdb
+E:\POS\POS\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\POS\POS\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\POS\POS\bin\Debug\CrystalDecisions.Shared.dll
+E:\POS\POS\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\POS\POS\bin\Debug\EntityFramework.dll
+E:\POS\POS\bin\Debug\EntityFramework.SqlServer.dll
+E:\POS\POS\bin\Debug\FlashControlV71.dll
+E:\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\POS\POS\bin\Debug\ShockwaveFlashObjects.dll
+E:\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\POS\POS\bin\Debug\stdole.dll
+E:\POS\POS\bin\Debug\EntityFramework.xml
+E:\POS\POS\bin\Debug\EntityFramework.SqlServer.xml
+E:\POS\POS\obj\Debug\POS.TrustInfo.xml
+E:\POS\POS\obj\Debug\POS.exe.manifest
+E:\POS\POS\obj\Debug\POS.application
+E:\POS\POS\bin\Debug\Tulpep.NotificationWindow.dll
+F:\POS\POS\bin\Debug\POS.exe.config
+F:\POS\POS\obj\Debug\POS.exe
+F:\POS\POS\obj\Debug\POS.pdb
+F:\POS\POS\bin\Debug\POS.exe.manifest
+F:\POS\POS\bin\Debug\POS.application
+F:\POS\POS\bin\Debug\POS.exe
+F:\POS\POS\bin\Debug\POS.pdb
+F:\POS\POS\bin\Debug\EntityFramework.dll
+F:\POS\POS\bin\Debug\EntityFramework.SqlServer.dll
+F:\POS\POS\bin\Debug\Tulpep.NotificationWindow.dll
+F:\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+F:\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+F:\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+F:\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+F:\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+F:\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+F:\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+F:\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+F:\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+F:\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+F:\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+F:\POS\POS\bin\Debug\ShockwaveFlashObjects.dll
+F:\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+F:\POS\POS\bin\Debug\stdole.dll
+F:\POS\POS\bin\Debug\EntityFramework.xml
+F:\POS\POS\bin\Debug\EntityFramework.SqlServer.xml
+F:\POS\POS\obj\Debug\POS.csprojResolveAssemblyReference.cache
+F:\POS\POS\obj\Debug\POS.BankAddition.resources
+F:\POS\POS\obj\Debug\POS.Demo_Screen.resources
+F:\POS\POS\obj\Debug\POS.FixAssets.resources
+F:\POS\POS\obj\Debug\POS.frm_AddUsers.resources
+F:\POS\POS\obj\Debug\POS.frm_BankReport.resources
+F:\POS\POS\obj\Debug\POS.frm_CashReport.resources
+F:\POS\POS\obj\Debug\POS.frm_Customers.resources
+F:\POS\POS\obj\Debug\POS.frm_EditExpense.resources
+F:\POS\POS\obj\Debug\POS.frm_Expenses.resources
+F:\POS\POS\obj\Debug\POS.frm_MainAdmin.resources
+F:\POS\POS\obj\Debug\POS.frm_PayementEdit.resources
+F:\POS\POS\obj\Debug\POS.frm_PaymentLedger.resources
+F:\POS\POS\obj\Debug\POS.frm_Payments.resources
+F:\POS\POS\obj\Debug\POS.frm_PaymentsReport.resources
+F:\POS\POS\obj\Debug\POS.frm_ProductCategories.resources
+F:\POS\POS\obj\Debug\POS.frm_ProductEdit.resources
+F:\POS\POS\obj\Debug\POS.frm_Products.resources
+F:\POS\POS\obj\Debug\POS.frm_PurchaseReport.resources
+F:\POS\POS\obj\Debug\POS.frm_PurchaseReturn.resources
+F:\POS\POS\obj\Debug\POS.frm_Purchases.resources
+F:\POS\POS\obj\Debug\POS.frm_rec.resources
+F:\POS\POS\obj\Debug\POS.frm_Recievings.resources
+F:\POS\POS\obj\Debug\POS.frm_SaleReport.resources
+F:\POS\POS\obj\Debug\POS.frm_SaleReturn.resources
+F:\POS\POS\obj\Debug\POS.frm_Sales.resources
+F:\POS\POS\obj\Debug\POS.frm_SearchExpensecs.resources
+F:\POS\POS\obj\Debug\POS.frm_Stock.resources
+F:\POS\POS\obj\Debug\POS.frm_Suppliers.resources
+F:\POS\POS\obj\Debug\POS.Login.resources
+F:\POS\POS\obj\Debug\POS.mainform.resources
+F:\POS\POS\obj\Debug\POS.Properties.Resources.resources
+F:\POS\POS\obj\Debug\POS.Recipt_Purchases.resources
+F:\POS\POS\obj\Debug\POS.Recipt_Sales.resources
+F:\POS\POS\obj\Debug\POS.Simple_sales_reciept.resources
+F:\POS\POS\obj\Debug\POS.csproj.GenerateResource.Cache
+F:\POS\POS\obj\Debug\POS.TrustInfo.xml
+F:\POS\POS\obj\Debug\POS.exe.manifest
+F:\POS\POS\obj\Debug\POS.application
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\POS.exe.config
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.exe
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.pdb
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\POS.exe.manifest
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\POS.application
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\POS.exe
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\POS.pdb
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\FlashControlV71.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\Tulpep.NotificationWindow.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\stdole.dll
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.BankAddition.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.Demo_Screen.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.FixAssets.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_AddUsers.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_BankReport.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_CashReport.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_Customers.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_EditExpense.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_Expenses.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_PayementEdit.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_PaymentLedger.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_Payments.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_PaymentsReport.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_ProductCategories.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_ProductEdit.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_Products.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_PurchaseReport.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_PurchaseReturn.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_Purchases.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_rec.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_Recievings.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_SaleReport.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_SaleReturn.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_Sales.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_SearchExpensecs.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_Stock.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_Suppliers.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.Login.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.mainform.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.Properties.Resources.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.ReciptSalesMan.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.Recipt_Purchases.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.Recipt_Sales.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.Simple_sales_reciept.resources
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.csproj.GenerateResource.Cache
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.TrustInfo.xml
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.exe.manifest
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.application
+C:\Users\Lenovo\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.csprojResolveAssemblyReference.cache
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\POS.exe.config
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\POS.exe.manifest
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\POS.application
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\POS.exe
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\POS.pdb
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\EntityFramework.dll
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\Tulpep.NotificationWindow.dll
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\stdole.dll
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\EntityFramework.xml
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.csprojResolveAssemblyReference.cache
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.BankAddition.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.Demo_Screen.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.FixAssets.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_AddUsers.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_BankReport.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_CashReport.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_Customers.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_EditExpense.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_Expenses.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_PayementEdit.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_PaymentLedger.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_Payments.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_PaymentsReport.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_ProductCategories.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_ProductEdit.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_Products.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_PurchaseReport.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_PurchaseReturn.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_Purchases.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_rec.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_Recievings.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_SaleReport.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_SaleReturn.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_Sales.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_SearchExpensecs.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_Stock.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.frm_Suppliers.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.Login.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.mainform.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.Properties.Resources.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.ReciptSalesMan.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.Recipt_Purchases.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.Recipt_Sales.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.Simple_sales_reciept.resources
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.csproj.GenerateResource.Cache
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.TrustInfo.xml
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.exe.manifest
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.application
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.exe
+C:\Users\aamir\Dropbox\Harfsol Products\E-Pharma\POS\POS\obj\Debug\POS.pdb

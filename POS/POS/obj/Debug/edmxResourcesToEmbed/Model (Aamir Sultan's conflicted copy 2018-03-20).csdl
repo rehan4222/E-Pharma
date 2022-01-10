@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="POS_dbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BankRecord">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Bank_FK" Type="Int32" Nullable="false" />
+    <Property Name="Debit" Type="Double" Nullable="false" />
+    <Property Name="Credit" Type="Double" Nullable="false" />
+    <Property Name="User_FK" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Balance" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Bank" Relationship="Self.FK_BankRecords_Banks" FromRole="BankRecords" ToRole="Banks" />
+    <NavigationProperty Name="User" Relationship="Self.FK_BankRecords_Users" FromRole="BankRecords" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Bank">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BankName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="AccountNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="BankRecords" Relationship="Self.FK_BankRecords_Banks" FromRole="Banks" ToRole="BankRecords" />
+  </EntityType>
+  <EntityType Name="Cash">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Debit" Type="Double" Nullable="false" />
+    <Property Name="Credit" Type="Double" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Balance" Type="Double" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Contact_No" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="CustomerDues" Relationship="Self.FK_CustomerDues_Customer" FromRole="Customer" ToRole="CustomerDues" />
+  </EntityType>
+  <EntityType Name="CustomerDue">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Customer_FK" Type="Int32" Nullable="false" />
+    <Property Name="Amount" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK_CustomerDues_Customer" FromRole="CustomerDues" ToRole="Customer" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CNIC" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Designation" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Contact_No" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Salary" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Salaries" Relationship="Self.FK_Salaries_Employees" FromRole="Employees" ToRole="Salaries" />
+  </EntityType>
+  <EntityType Name="Expense_Category">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Category_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Expenses" Relationship="Self.FK_Expenses_Expense_Category" FromRole="Expense_Category" ToRole="Expenses" />
+  </EntityType>
+  <EntityType Name="Expens">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Exp_Category_FK" Type="Int32" Nullable="false" />
+    <Property Name="PaymentMethod" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Amount" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Expense_Category" Relationship="Self.FK_Expenses_Expense_Category" FromRole="Expenses" ToRole="Expense_Category" />
+  </EntityType>
+  <EntityType Name="Fix_Asset">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Asset_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Asset_Worth" Type="Double" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Supplier_FK" Type="Int32" Nullable="false" />
+    <Property Name="PaymentMethod" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Openning" Type="Double" Nullable="false" />
+    <Property Name="Amount" Type="Double" Nullable="false" />
+    <Property Name="Remaining" Type="Double" Nullable="false" />
+    <Property Name="Invoice" Type="Int32" Nullable="false" />
+    <Property Name="User_FK" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Supplier" Relationship="Self.FK_Payments_Supplier" FromRole="Payments" ToRole="Supplier" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Payments_Users" FromRole="Payments" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="PaymentsLedger">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Supplier_FK" Type="Int32" Nullable="false" />
+    <Property Name="PaymentMethod" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Openning" Type="Double" Nullable="false" />
+    <Property Name="Amount" Type="Double" Nullable="false" />
+    <Property Name="Remaining" Type="Double" Nullable="false" />
+    <Property Name="Invoice" Type="Int32" Nullable="false" />
+    <Property Name="User_FK" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Supplier" Relationship="Self.FK_PaymentsLedger_Supplier" FromRole="PaymentsLedger" ToRole="Supplier" />
+    <NavigationProperty Name="User" Relationship="Self.FK_PaymentsLedger_Users" FromRole="PaymentsLedger" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Product_Stock">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Product_FK" Type="Int32" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Product" Relationship="Self.FK_Product_Stock_Products" FromRole="Product_Stock" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="Product_Sub_Category">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Product_Category_FK" Type="Int32" Nullable="false" />
+    <Property Name="Sub_Category_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Products_Category" Relationship="Self.FK_Product_Sub_Category_Products_Category" FromRole="Product_Sub_Category" ToRole="Products_Category" />
+    <NavigationProperty Name="Products" Relationship="Self.FK_Products_Products" FromRole="Product_Sub_Category" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Product_ID" />
+    </Key>
+    <Property Name="Product_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Product_Sub_Category_FK" Type="Int32" Nullable="false" />
+    <Property Name="Purchase_Cost" Type="Double" Nullable="false" />
+    <Property Name="Barcode_Value" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SaleCost" Type="Double" Nullable="false" />
+    <Property Name="MinimumQty" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Product_Stock" Relationship="Self.FK_Product_Stock_Products" FromRole="Products" ToRole="Product_Stock" />
+    <NavigationProperty Name="Product_Sub_Category" Relationship="Self.FK_Products_Products" FromRole="Products" ToRole="Product_Sub_Category" />
+    <NavigationProperty Name="Purchases" Relationship="Self.FK_Purchases_Products" FromRole="Products" ToRole="Purchases" />
+    <NavigationProperty Name="Sales" Relationship="Self.FK_Sales_Products" FromRole="Products" ToRole="Sales" />
+  </EntityType>
+  <EntityType Name="Products_Category">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Category_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Product_Sub_Category" Relationship="Self.FK_Product_Sub_Category_Products_Category" FromRole="Products_Category" ToRole="Product_Sub_Category" />
+  </EntityType>
+  <EntityType Name="Purchase">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Product_FK" Type="Int32" Nullable="false" />
+    <Property Name="Invoice" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="Total" Type="Double" Nullable="false" />
+    <Property Name="User_FK" Type="Int32" Nullable="false" />
+    <Property Name="Builty" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BatchNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Product" Relationship="Self.FK_Purchases_Products" FromRole="Purchases" ToRole="Products" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Purchases_Users" FromRole="Purchases" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Recieving">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Customer_FK" Type="Int32" Nullable="false" />
+    <Property Name="PaymentMethod" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Openning" Type="Double" Nullable="false" />
+    <Property Name="Amount" Type="Double" Nullable="false" />
+    <Property Name="Remaining" Type="Double" Nullable="false" />
+    <Property Name="Invoice" Type="Int32" Nullable="false" />
+    <Property Name="User_FK" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Recievings1" Relationship="Self.FK_Recievings_Customer" FromRole="Recievings" ToRole="Recievings1" />
+    <NavigationProperty Name="Recieving1" Relationship="Self.FK_Recievings_Customer" FromRole="Recievings1" ToRole="Recievings" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Recievings_Users" FromRole="Recievings" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="rpt_Bank">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Bank" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Debit" Type="Double" Nullable="false" />
+    <Property Name="Credit" Type="Double" Nullable="false" />
+    <Property Name="Balance" Type="Double" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Date" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="rpt_Purchases">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ProdName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Cost" Type="Double" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="Total" Type="Double" Nullable="false" />
+    <Property Name="Invoice" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="rpt_Sale">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Product" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Customer" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UnitPrice" Type="Double" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="Discount" Type="Double" Nullable="false" />
+    <Property Name="Total" Type="Double" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Salary">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Employee_FK" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Amount" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_Salaries_Employees" FromRole="Salaries" ToRole="Employees" />
+  </EntityType>
+  <EntityType Name="Sale">
+    <Key>
+      <PropertyRef Name="Sales_ID" />
+    </Key>
+    <Property Name="Sales_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Product_FK" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Customer_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PaymentMethod" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Invoice" Type="Int32" Nullable="false" />
+    <Property Name="Unit_Price" Type="Double" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="Discount" Type="Double" Nullable="false" />
+    <Property Name="Misc" Type="Double" Nullable="false" />
+    <Property Name="Total" Type="Double" Nullable="false" />
+    <Property Name="User_FK" Type="Int32" Nullable="false" />
+    <Property Name="Batch" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Product" Relationship="Self.FK_Sales_Products" FromRole="Sales" ToRole="Products" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Sales_Users" FromRole="Sales" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Supplier">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Contact_No" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Payments" Relationship="Self.FK_Payments_Supplier" FromRole="Supplier" ToRole="Payments" />
+    <NavigationProperty Name="PaymentsLedgers" Relationship="Self.FK_PaymentsLedger_Supplier" FromRole="Supplier" ToRole="PaymentsLedger" />
+    <NavigationProperty Name="SupplierDues" Relationship="Self.FK_SupplierDues_Supplier" FromRole="Supplier" ToRole="SupplierDues" />
+  </EntityType>
+  <EntityType Name="SupplierDue">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Supplier_FK" Type="Int32" Nullable="false" />
+    <Property Name="Amount" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Supplier" Relationship="Self.FK_SupplierDues_Supplier" FromRole="SupplierDues" ToRole="Supplier" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Contact" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="BankRecords" Relationship="Self.FK_BankRecords_Users" FromRole="Users" ToRole="BankRecords" />
+    <NavigationProperty Name="Payments" Relationship="Self.FK_Payments_Users" FromRole="Users" ToRole="Payments" />
+    <NavigationProperty Name="PaymentsLedgers" Relationship="Self.FK_PaymentsLedger_Users" FromRole="Users" ToRole="PaymentsLedger" />
+    <NavigationProperty Name="Purchases" Relationship="Self.FK_Purchases_Users" FromRole="Users" ToRole="Purchases" />
+    <NavigationProperty Name="Recievings" Relationship="Self.FK_Recievings_Users" FromRole="Users" ToRole="Recievings" />
+    <NavigationProperty Name="Sales" Relationship="Self.FK_Sales_Users" FromRole="Users" ToRole="Sales" />
+  </EntityType>
+  <Association Name="FK_BankRecords_Banks">
+    <End Role="Banks" Type="Self.Bank" Multiplicity="1" />
+    <End Role="BankRecords" Type="Self.BankRecord" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Banks">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="BankRecords">
+        <PropertyRef Name="Bank_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BankRecords_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="BankRecords" Type="Self.BankRecord" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="BankRecords">
+        <PropertyRef Name="User_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CustomerDues_Customer">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="1" />
+    <End Role="CustomerDues" Type="Self.CustomerDue" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CustomerDues">
+        <PropertyRef Name="Customer_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Salaries_Employees">
+    <End Role="Employees" Type="Self.Employee" Multiplicity="1" />
+    <End Role="Salaries" Type="Self.Salary" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Salaries">
+        <PropertyRef Name="Employee_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Expenses_Expense_Category">
+    <End Role="Expense_Category" Type="Self.Expense_Category" Multiplicity="1" />
+    <End Role="Expenses" Type="Self.Expens" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Expense_Category">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Expenses">
+        <PropertyRef Name="Exp_Category_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Payments_Supplier">
+    <End Role="Supplier" Type="Self.Supplier" Multiplicity="1" />
+    <End Role="Payments" Type="Self.Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Supplier">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Payments">
+        <PropertyRef Name="Supplier_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Payments_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="Payments" Type="Self.Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Payments">
+        <PropertyRef Name="User_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PaymentsLedger_Supplier">
+    <End Role="Supplier" Type="Self.Supplier" Multiplicity="1" />
+    <End Role="PaymentsLedger" Type="Self.PaymentsLedger" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Supplier">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PaymentsLedger">
+        <PropertyRef Name="Supplier_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PaymentsLedger_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="PaymentsLedger" Type="Self.PaymentsLedger" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="PaymentsLedger">
+        <PropertyRef Name="User_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Product_Stock_Products">
+    <End Role="Products" Type="Self.Product" Multiplicity="1" />
+    <End Role="Product_Stock" Type="Self.Product_Stock" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="Product_ID" />
+      </Principal>
+      <Dependent Role="Product_Stock">
+        <PropertyRef Name="Product_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Product_Sub_Category_Products_Category">
+    <End Role="Products_Category" Type="Self.Products_Category" Multiplicity="1" />
+    <End Role="Product_Sub_Category" Type="Self.Product_Sub_Category" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products_Category">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Product_Sub_Category">
+        <PropertyRef Name="Product_Category_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_Products">
+    <End Role="Product_Sub_Category" Type="Self.Product_Sub_Category" Multiplicity="1" />
+    <End Role="Products" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product_Sub_Category">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="Product_Sub_Category_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Purchases_Products">
+    <End Role="Products" Type="Self.Product" Multiplicity="1" />
+    <End Role="Purchases" Type="Self.Purchase" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="Product_ID" />
+      </Principal>
+      <Dependent Role="Purchases">
+        <PropertyRef Name="Product_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sales_Products">
+    <End Role="Products" Type="Self.Product" Multiplicity="1" />
+    <End Role="Sales" Type="Self.Sale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="Product_ID" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="Product_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Purchases_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="Purchases" Type="Self.Purchase" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Purchases">
+        <PropertyRef Name="User_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Recievings_Customer">
+    <End Role="Recievings" Type="Self.Recieving" Multiplicity="1" />
+    <End Role="Recievings1" Type="Self.Recieving" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Recievings">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Recievings1">
+        <PropertyRef Name="Customer_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Recievings_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="Recievings" Type="Self.Recieving" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Recievings">
+        <PropertyRef Name="User_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sales_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="Sales" Type="Self.Sale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="User_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SupplierDues_Supplier">
+    <End Role="Supplier" Type="Self.Supplier" Multiplicity="1" />
+    <End Role="SupplierDues" Type="Self.SupplierDue" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Supplier">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SupplierDues">
+        <PropertyRef Name="Supplier_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="POS_dbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BankRecords" EntityType="Self.BankRecord" />
+    <EntitySet Name="Banks" EntityType="Self.Bank" />
+    <EntitySet Name="Cashes" EntityType="Self.Cash" />
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="CustomerDues" EntityType="Self.CustomerDue" />
+    <EntitySet Name="Employees" EntityType="Self.Employee" />
+    <EntitySet Name="Expense_Categories" EntityType="Self.Expense_Category" />
+    <EntitySet Name="Expenses" EntityType="Self.Expens" />
+    <EntitySet Name="Fix_Assets" EntityType="Self.Fix_Asset" />
+    <EntitySet Name="Payments" EntityType="Self.Payment" />
+    <EntitySet Name="PaymentsLedgers" EntityType="Self.PaymentsLedger" />
+    <EntitySet Name="Product_Stocks" EntityType="Self.Product_Stock" />
+    <EntitySet Name="Product_Sub_Categories" EntityType="Self.Product_Sub_Category" />
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <EntitySet Name="Products_Categories" EntityType="Self.Products_Category" />
+    <EntitySet Name="Purchases" EntityType="Self.Purchase" />
+    <EntitySet Name="Recievings" EntityType="Self.Recieving" />
+    <EntitySet Name="rpt_Bank" EntityType="Self.rpt_Bank" />
+    <EntitySet Name="rpt_Purchases" EntityType="Self.rpt_Purchases" />
+    <EntitySet Name="rpt_Sale" EntityType="Self.rpt_Sale" />
+    <EntitySet Name="Salaries" EntityType="Self.Salary" />
+    <EntitySet Name="Sales" EntityType="Self.Sale" />
+    <EntitySet Name="Suppliers" EntityType="Self.Supplier" />
+    <EntitySet Name="SupplierDues" EntityType="Self.SupplierDue" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK_BankRecords_Banks" Association="Self.FK_BankRecords_Banks">
+      <End Role="Banks" EntitySet="Banks" />
+      <End Role="BankRecords" EntitySet="BankRecords" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BankRecords_Users" Association="Self.FK_BankRecords_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="BankRecords" EntitySet="BankRecords" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CustomerDues_Customer" Association="Self.FK_CustomerDues_Customer">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="CustomerDues" EntitySet="CustomerDues" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Salaries_Employees" Association="Self.FK_Salaries_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="Salaries" EntitySet="Salaries" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Expenses_Expense_Category" Association="Self.FK_Expenses_Expense_Category">
+      <End Role="Expense_Category" EntitySet="Expense_Categories" />
+      <End Role="Expenses" EntitySet="Expenses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Payments_Supplier" Association="Self.FK_Payments_Supplier">
+      <End Role="Supplier" EntitySet="Suppliers" />
+      <End Role="Payments" EntitySet="Payments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Payments_Users" Association="Self.FK_Payments_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Payments" EntitySet="Payments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PaymentsLedger_Supplier" Association="Self.FK_PaymentsLedger_Supplier">
+      <End Role="Supplier" EntitySet="Suppliers" />
+      <End Role="PaymentsLedger" EntitySet="PaymentsLedgers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PaymentsLedger_Users" Association="Self.FK_PaymentsLedger_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="PaymentsLedger" EntitySet="PaymentsLedgers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Product_Stock_Products" Association="Self.FK_Product_Stock_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="Product_Stock" EntitySet="Product_Stocks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Product_Sub_Category_Products_Category" Association="Self.FK_Product_Sub_Category_Products_Category">
+      <End Role="Products_Category" EntitySet="Products_Categories" />
+      <End Role="Product_Sub_Category" EntitySet="Product_Sub_Categories" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_Products" Association="Self.FK_Products_Products">
+      <End Role="Product_Sub_Category" EntitySet="Product_Sub_Categories" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Purchases_Products" Association="Self.FK_Purchases_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="Purchases" EntitySet="Purchases" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sales_Products" Association="Self.FK_Sales_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Purchases_Users" Association="Self.FK_Purchases_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Purchases" EntitySet="Purchases" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Recievings_Customer" Association="Self.FK_Recievings_Customer">
+      <End Role="Recievings" EntitySet="Recievings" />
+      <End Role="Recievings1" EntitySet="Recievings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Recievings_Users" Association="Self.FK_Recievings_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Recievings" EntitySet="Recievings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sales_Users" Association="Self.FK_Sales_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SupplierDues_Supplier" Association="Self.FK_SupplierDues_Supplier">
+      <End Role="Supplier" EntitySet="Suppliers" />
+      <End Role="SupplierDues" EntitySet="SupplierDues" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

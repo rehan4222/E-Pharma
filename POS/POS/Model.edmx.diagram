@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ee6a8838dd7e41d7856a2851f5135f57" Name="Diagram1">
+        <EntityTypeShape EntityType="POS_dbModel.BankRecord" Width="1.5" PointX="3" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.Bank" Width="1.5" PointX="0.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.Cash" Width="1.5" PointX="8.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.Customer" Width="1.5" PointX="8.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.CustomerDue" Width="1.5" PointX="11" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.Employee" Width="1.5" PointX="8.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.Expense_Category" Width="1.5" PointX="8.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.Expens" Width="1.5" PointX="11" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.Fix_Asset" Width="1.5" PointX="10.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.Log" Width="1.5" PointX="12.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.Payment" Width="1.5" PointX="6" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.PaymentsLedger" Width="1.5" PointX="3" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.Product_Stock" Width="1.5" PointX="6" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.Product_Sub_Category" Width="1.5" PointX="1.5" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.ProductCompany" Width="1.5" PointX="1.5" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.Product" Width="1.5" PointX="3.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.Products_Category" Width="1.5" PointX="1.5" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.Purchase" Width="1.5" PointX="3" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.PurchReturn" Width="1.5" PointX="6" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.Recieving" Width="1.5" PointX="3" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.rpt_Bank" Width="1.5" PointX="13.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.rpt_ProfitLoss" Width="1.5" PointX="13.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.rpt_Purchases" Width="1.5" PointX="14.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.rpt_Sale" Width="1.5" PointX="8.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.Salary" Width="1.5" PointX="11" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.Sale" Width="1.5" PointX="6" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.Supplier" Width="1.5" PointX="3.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.SupplierDue" Width="1.5" PointX="6" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="POS_dbModel.User" Width="1.5" PointX="0.75" PointY="14.75" IsExpanded="true" />
+        <AssociationConnector Association="POS_dbModel.FK_BankRecords_Banks" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_BankRecords_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_CustomerDues_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_Salaries_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_Expenses_Expense_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_Payments_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_Payments_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_PaymentsLedger_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_PaymentsLedger_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_Product_Stock_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_Product_Stock_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_Product_Sub_Category_Products_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_Products_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_ProductCompany_ProductCompany" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_Products_ProductCompany" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_Purchases_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_PurchReturns_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_Sales_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_Purchases_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_Purchases_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_PurchReturns_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_PurchReturns_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_Recievings_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_Recievings_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_Sales_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_Sales_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="POS_dbModel.FK_SupplierDues_Supplier" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
